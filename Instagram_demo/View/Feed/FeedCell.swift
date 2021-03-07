@@ -23,6 +23,7 @@ struct FeedCell: View {
                     .font(.system(size: 14, weight:.bold))
                 
             }
+            .padding([.leading, .bottom], 8)
             
             // post image
             Image("yellow-bucks")
@@ -32,12 +33,12 @@ struct FeedCell: View {
                 .clipped()
             
             // action button
-            HStack(spacing: 8) {
+            HStack(spacing: 16) {
                 Button(action: {}, label: {
                     Image(systemName: "heart")
                         .resizable()
                         .scaledToFill()
-                        .frame(width: 28, height: 28)
+                        .frame(width: 20, height: 20)
                         .font(.system(size: 20))
                         .padding(4)
                 })
@@ -46,7 +47,7 @@ struct FeedCell: View {
                     Image(systemName: "bubble.right")
                         .resizable()
                         .scaledToFill()
-                        .frame(width: 28, height: 28)
+                        .frame(width: 20, height: 20)
                         .font(.system(size: 20))
                         .padding(4)
                 })
@@ -55,23 +56,33 @@ struct FeedCell: View {
                     Image(systemName: "paperplane")
                         .resizable()
                         .scaledToFill()
-                        .frame(width: 28, height: 28)
+                        .frame(width: 20, height: 20)
                         .font(.system(size: 20))
                         .padding(4)
                 })
-            }.foregroundColor(.black)
+            }
+            .padding(.leading, 8)
+            .foregroundColor(.black)
             
             // caption
+            
+            Text("3 likes")
+                .font(.system(size: 14, weight: .semibold))
+                .padding(.leading, 8)
+                .padding(.bottom, 2)
             HStack {
                 Text("¥ellowBucks").font(.system(size: 14, weight: .semibold)) + Text(" HipHop is my life. Are U guys have fun with my music? They never do what they say.")
                         .font(.system(size: 15))
             }
+            .padding(.horizontal, 8)
             
             Text("2d")
                 .font(.system(size: 14))
                 .foregroundColor(.gray)
-                .padding(.top)
+                .padding(.leading, 8)
+                .padding(.top, 0)
         }
+        .padding([.bottom, .top], 8)
     }
 }
 
