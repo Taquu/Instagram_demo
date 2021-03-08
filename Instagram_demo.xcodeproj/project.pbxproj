@@ -20,6 +20,7 @@
 		B0AF313B25F3EF1100E386BB /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AF313A25F3EF1100E386BB /* ProfileView.swift */; };
 		B0AF314025F3EF5700E386BB /* UploadPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AF313F25F3EF5700E386BB /* UploadPostView.swift */; };
 		B0AF314525F4165D00E386BB /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AF314425F4165D00E386BB /* FeedCell.swift */; };
+		B0AF315D25F6612C00E386BB /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AF315C25F6612C00E386BB /* SearchBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		B0AF313A25F3EF1100E386BB /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		B0AF313F25F3EF5700E386BB /* UploadPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPostView.swift; sourceTree = "<group>"; };
 		B0AF314425F4165D00E386BB /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		B0AF315C25F6612C00E386BB /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -241,6 +243,7 @@
 			isa = PBXGroup;
 			children = (
 				B0AF313025F3EEB800E386BB /* SearchView.swift */,
+				B0AF315C25F6612C00E386BB /* SearchBar.swift */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -431,6 +434,7 @@
 				B0AF312425F3ED5000E386BB /* MainTabView.swift in Sources */,
 				B0AF314025F3EF5700E386BB /* UploadPostView.swift in Sources */,
 				B0AF313B25F3EF1100E386BB /* ProfileView.swift in Sources */,
+				B0AF315D25F6612C00E386BB /* SearchBar.swift in Sources */,
 				B0AF313625F3EECE00E386BB /* NotificationsView.swift in Sources */,
 				B0AF314525F4165D00E386BB /* FeedCell.swift in Sources */,
 			);

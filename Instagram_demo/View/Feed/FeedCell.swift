@@ -82,7 +82,7 @@ struct FeedCell: View {
                 .padding(.leading, 8)
                 .padding(.top, 0)
         }
-        .padding([.bottom, .top], 8)
+//        .padding([.bottom, .top], 8)
     }
 }
 
